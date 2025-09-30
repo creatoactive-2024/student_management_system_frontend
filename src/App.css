@@ -40,3 +40,69 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* CSS to style the scrollbar */
+/* CSS to style the scrollbar */
+/* Vertical scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Set the color of the scrollbar thumb on hover */
+}
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar-horizontal {
+  height: 8px; /* Set the height of the scrollbar */
+}
+
+::-webkit-scrollbar-track-horizontal {
+  background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb-horizontal {
+  background: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb-horizontal:hover {
+  background: #555; /* Set the color of the scrollbar thumb on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 768px) {
+  .viewAcc{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+} */
