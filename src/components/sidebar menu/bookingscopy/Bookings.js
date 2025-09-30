@@ -1159,6 +1159,16 @@ setFilteredData((res.data.data || []).reverse());
     dataIndex: "visa_type",
     key: "visa_type",
   },
+  {
+    title: "Payment Amount",
+    dataIndex: "payment_amount",
+    key: "payment_amount",
+  },
+  {
+    title: "Payment Method",
+    dataIndex: "payment_method",
+    key: "payment_method",
+  },
 ];
 
 
@@ -1173,6 +1183,8 @@ useEffect(() => {
 
     return {
       _id: entry._id || null,
+      payment_amount: entry.payment_amount || "",
+      payment_method: entry.payment_method || "",
       payment_invoice_number: entry.payment_invoice_number || "",
       studentid: entry.studentid,
       salesperson: salespersonObj ? salespersonObj.label : entry.salesperson, // show name
